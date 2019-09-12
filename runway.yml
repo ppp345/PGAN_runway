@@ -4,5 +4,8 @@ cuda: 9.0
 spec:
   gpu: True
   cpu: True
+files:
+  ignore:
+    - checkpoints/*
 build_steps:
   - pip install torch==1.1.0 runway-python numpy==1.16.4
